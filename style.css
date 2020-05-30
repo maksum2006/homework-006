@@ -1,0 +1,462 @@
+.wrapper{
+    width: 100%;
+    float: left;
+    border: 1px solid white;
+    margin: auto;
+}
+.header {
+    float: left;
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    
+}
+.navigation li{
+    display: inline-block;
+    margin-left: 55px;
+    
+}
+.li{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.navigation button{
+    border: none;
+    background-color: white;
+    font-size: 14px;
+    font-family: serif;
+    color: aqua;
+    margin-right: 10px;
+}
+ul .li{
+  position: absolute;
+    left: 10px;
+    font-size: 30px;
+}
+ .navigation button:hover{
+    color: #F38181;
+     border-bottom: 2px solid #F38181;
+}
+.main{
+    text-align: center;
+    
+}
+.p{
+    margin-top: 130px;
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    
+}
+.p1{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.hr{
+    width: 100px;
+    border: 1px solid #F38181;
+}
+.bigbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+.mainbox{
+    width: 330px;
+    height: 69px;
+    border: 1px solid white;
+}
+.mainbox3{
+    width: 330px;
+    height: 69px;
+    margin-top: 131px;
+}
+.p5{
+    text-align: left;
+    margin-left: 128px;
+}
+.img{
+   margin-right: 120px; 
+    margin-bottom: -20px;
+}
+.p4{
+    margin-bottom: -15px;
+}
+.box10{
+    margin: auto;
+    
+}
+.p10{
+    
+    
+
+}
+.divdiv{
+    width: 941px;
+    height: 39px;
+    margin: auto;
+}
+.imgimgimg{
+    width: 381px;
+    height: 472px;
+    margin-left: 10px;
+}
+.images:hover .imgimgimg{
+    box-shadow: 7px 7px 7px 0px aqua;
+}
+.dim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.divdiv3{
+    display: none;
+    width: 391px;
+    height: 482px;
+    opacity: 0.9;
+    position: relative;
+    top: -48.2%;
+    background-image: linear-gradient(pink, yellow);
+    
+}
+.images:hover .divdiv3{
+    display: block;
+    
+}
+
+.div1001{
+   background: yellow;
+    width: 50px;
+    height: 50px;
+     display: flex;
+     align-items: center;
+    justify-content: center;
+   
+    position: relative;
+    left: 200px;
+    display: none;
+}
+.div1002{
+    background: yellow;
+     display: flex;
+     align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-right: 1px solid pink;
+   
+    position: relative;
+    
+    display: none;
+}
+.div1003{
+   background: yellow;
+    
+    width: 50px;
+    height: 50px;
+    border-right: 1px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    display: none;
+}
+.div1004{
+    background: yellow;
+    width: 50px;
+    height: 50px;
+    
+    position: relative;
+    
+    border-right: 1px solid pink;
+    
+    display: none;
+}
+.images:hover .div1004{
+    
+    display: block;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+.images:hover .div1003{
+   
+    display: block;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+.images:hover .div1002{
+    
+    display: block;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+.images:hover .div1001{
+    
+    display: block;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+.div1001:hover{
+    background: aqua;
+}
+.div1002:hover{
+    background: aqua;
+}
+.div1003:hover{
+    background: aqua;
+}
+.div1004:hover{
+    background: aqua;
+}
+.images2:hover .imgimgimg2{
+    box-shadow: 7px 7px 7px 0px aqua;
+}
+.divdiv4{
+    background-image: linear-gradient(pink, yellow);
+     width: 396px;
+    height: 483px;
+    position: relative;
+    top: -487px;   
+    left: -6px;
+    opacity: 0.9;
+    display: none;
+}
+.images2:hover .divdiv4{
+    display: block;
+}
+.me{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: none;
+    
+    position: relative;
+    left: 200px;
+    
+    display: none;
+}
+.me2{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: none;
+    border-right: 1px solid pink;
+    position: relative;
+   
+    display: none;
+}
+.me3{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: none;
+    border-right: 1px solid pink;
+    position: relative;
+     
+    display: none;
+}
+.me4{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: none;
+    border-right: 1px solid pink;
+    position: relative;
+    
+    display: none;
+}
+.images2:hover .me4{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images2:hover .me3{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images2:hover .me2{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images2:hover .me{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.me:hover{
+    background-color: aqua;
+}
+.me2:hover{
+    background-color: aqua;
+}
+.me3:hover{
+    background-color: aqua;
+}
+.me4:hover{
+    background-color: aqua;
+}
+.divdiv5{
+     background-image: linear-gradient(pink, yellow);
+     width: 391px;
+    height: 483px;
+    position: relative;
+    top: -48.3%;  
+    left: -4px;
+    opacity: 0.9;
+    display: none;
+}
+.images3:hover .divdiv5{
+    display: block;
+}
+.imgimgimgw{
+    width: 381px;
+    height: 472px;
+    
+}
+.images3:hover .imgimgimgw{
+    box-shadow: 7px 7px 7px 0px aqua;
+}
+
+.soc{
+    border: none;
+    
+    background: yellow;
+    position: relative;
+    left: 200px;
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+.soc2{
+    border: none;
+    border-right: 1px solid pink;
+    background: yellow;
+    position: relative;
+    
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+.soc3{
+    border: none;
+    border-right: 1px solid pink;
+    background: yellow;
+    position: relative;
+    
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+.soc4{
+    border: none;
+    border-right: 1px solid pink;
+    background: yellow;
+    position: relative;
+    
+    width: 50px;
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+.images3:hover .soc4{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images3:hover .soc3{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images3:hover .soc2{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images3:hover .soc{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soc:hover{
+    background: aqua;
+}
+.soc2:hover{
+    background: aqua;
+}
+.soc3:hover{
+    background: aqua;
+}
+.soc4:hover{
+    background: aqua;
+}
+#p2100{
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: black;
+    
+}
+#rober{
+    position: absolute;
+    top: 1285px;
+    left: 165px;
+}
+#p2200{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+#rober2{
+    position: absolute;
+    top: 1285px;
+    left: 600px;
+}
+#rober3{
+     position: absolute;
+    top: 1285px;
+    left: 1050px;
+}
+#socer2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -750px;
+    left: 50px;
+}
+#socer3{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -750px;
+    left: 50px;
+}
+#socer{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -750px;
+    left: 50px;
+}
